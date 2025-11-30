@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/Login/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    width: 450px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: 2px solid grey;
+    box-shadow: 1px 1px  2px grey, -1px -1px 2px grey;
+    margin-top: 10px;
+}
+.login h1{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 2.5em;
+}
+.login p{
+    text-align: center;
+    color: white;
+    font-size: 1.6em;
+    margin-top: 10px;
+}
+.email{
+    margin-top: 30px;
+    color: white;
+    margin-left: 30px;
+}
+.email input{
+    width: 350px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1.3px solid rgb(243, 239, 239);
+    background-color: transparent;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: 1em;
+}
+.password{
+    margin-top: 30px;
+    color: white;
+    margin-left: 30px;
+}
+.password input{
+    width: 350px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1.3px solid rgb(243, 239, 239);
+    background-color: transparent;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: 1em;
+}
+ button{
+    padding: 10px 40px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.6em;
+ }
+ #p2{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+ }
+#p2 a{
+    text-decoration: none;
+    color: green;
+    font-size: 15px;
+ }
+ /* Small Mobile */
+ @media (max-width: 390px) {
+    *{
+        box-sizing: border-box;
+    }
+    .login{
+        width: 370px;
+    }
+    .email input{
+        width: 310px;
+    }
+    .password input{
+        width: 310px;
+    }
+    button{
+        margin-left: 110px;
+        padding: 10px 50px;
+    }
+    #p2{
+        font-size: 1.2em;
+    }
+ }
+ /* Large screen mobile */
+ @media (min-width: 391px) and (max-width: 430px){
+    *{
+        box-sizing: border-box;
+    }
+    .login{
+        width: 400px;
+    }
+ }
+
+ /* Tablet or Ipad */
+ @media (min-width: 431px) and (max-width: 900px){
+    *{
+        box-sizing: border-box;
+    }
+    .login{
+        width: 550px;
+        height: 600px;
+    }
+    .login h1{
+        font-size: 2.9em;
+    }
+    .email{
+        margin-left: 50px;
+    }
+    .email input{
+        width: 430px;
+        height: 50px;
+    }
+    .password{
+        margin-left: 50px;
+    }
+    .password input{
+        width: 430px;
+        height: 50px;
+    }
+    button{
+        padding: 10px 70px;
+        font-size: 2em;
+        margin-left: 160px;
+        margin-top: 60px;
+    }
+    #p2{
+        font-size: 1.6em;
+    }
+    #p2 a{
+        font-size: 1.1em;
+    }
+ }
