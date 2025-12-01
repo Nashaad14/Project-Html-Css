@@ -16,6 +16,7 @@
     justify-content: space-around;
     margin-bottom: 10px;
     box-shadow: 0 2px rgb(196, 194, 194);
+   
   
 }
  .header-nav #bars{
@@ -67,7 +68,7 @@ ul a{
 .hero {
     width: 100%;
     height: 500;
-    background: linear-gradient(rgba(63, 127, 63,0.5)), url(/Home/images/carousel-2.jpg) no-repeat center center;
+    background: linear-gradient(rgba(63, 127, 63,0.5)), url(/images/carousel-2.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
     display: flex;
@@ -75,7 +76,7 @@ ul a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .hero h1{
     color: white;
@@ -96,7 +97,6 @@ ul a{
 .content{
     display: flex;
     justify-content: center;
-    /* gap: 1px; */
     flex-wrap: wrap;
     margin-top: 100px;
     margin-bottom: -60px;
@@ -134,7 +134,7 @@ ul a{
     color: #555;
 }
 .box:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
     box-shadow: 0px 6px 16px rgba(0,0,0,0.15);
 }
 .box h3 i{
@@ -182,7 +182,6 @@ ul a{
 }
 .about-left img {
     width: 70%;
-    /* max-width: 280px;    */
     border-radius: 10px;
     object-fit: cover;
     display: block;
@@ -459,13 +458,13 @@ ul a{
     text-align: center;
     padding: 20px;
     transition: .3s;
-    margin-left: -20px;
+    /* margin-left: -5px; */
     margin-top: -10px;
 }
 
 
 .service-item:hover .service-overlay {
-    background: rgba(0,0,0,0.4);
+    background: rgba(15, 36, 15, 0.4);
     color: #fff;
 }
 
@@ -823,11 +822,11 @@ textarea:hover{
     font-size: 22px;
     margin-bottom: 5px;
     color: #fff;
-    margin-left: -40px;
+    margin-left: -20px;
 }
 .team-text p {
     margin-bottom: 15px;
-    color: #145317;
+    color: #0a5f0f;
     font-weight: 500;
     margin-left: -40px;
 }
