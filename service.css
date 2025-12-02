@@ -64,7 +64,7 @@ ul a{
 .bg1{
     width: 100%;
     height: 450px;
-    background-image: linear-gradient(rgba(63, 127, 63,0.5)),url(/Imgs/image1.png);
+    background-image: linear-gradient(rgba(63, 127, 63,0.5)),url(Imgs/image1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -136,7 +136,7 @@ ul a{
 }
 
 .container:hover{
-    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(/Imgs/landscaping\ pic.jpg);
+    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(Imgs/landscaping\ pic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -274,7 +274,7 @@ ul a{
 }
 
 .container-2:hover{
-    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(/Imgs/Care.jpg);
+    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(Imgs/Care.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -362,7 +362,7 @@ ul a{
 }
 
 .container-3:hover{
-    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(/Imgs/Waraab.jpg);
+    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(Imgs/Waraab.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -463,7 +463,7 @@ ul a{
 }
 
 .container-4:hover{
-    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(/Imgs/abuur.jpg);
+    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(Imgs/abuur.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -563,7 +563,7 @@ ul a{
 }
 
 .container-5:hover{
-    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(/Imgs/jarid.jpg);
+    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(Imgs/jarid.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -663,7 +663,7 @@ ul a{
 }
 
 .container-6:hover{
-    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(/Imgs/urban.jpg);
+    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(Imgs/urban.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -826,7 +826,7 @@ ul a{
     margin-left: 60px;
 }
 
-/* Small screen mobile */
+
 /* Small screen mobile */
 @media (max-width: 390px){
     .header-nav{
